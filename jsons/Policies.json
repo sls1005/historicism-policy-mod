@@ -61,8 +61,7 @@
                 "uniques": [
                     "[+5]% [Happiness] <in [{Annexed} {Non-occupied}] cities>",
                     "[+10]% [Happiness] <in [Non-occupied] cities>",
-                    "[-1 Science] from every [Library] <in [Annexed] cities> <in cities with at least [2] [Population]> <hidden from users>",
-                    "[+1 Science] from every [Library] <in [{Annexed} {Non-occupied}] cities> <in cities with at least [2] [Population]> <hidden from users>",
+                    "[-1 Science] from every [Library] <in [{Annexed} {non-[Non-occupied]}] cities> <in cities with at least [2] [Population]> <hidden from users>",
                     "Comment [-1 Science from every Library in annexed occupied cities with at least 2 Population]"
                 ]
             },
