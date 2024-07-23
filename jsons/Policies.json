@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Historicism",
+        "era": "Industrial era",
+        "priorities": {"Domination": 10},
+        "uniques": [
+            "Only available <after turn number [10]>",
+            "[+1 Happiness] from every [Monument]"
+        ],
+        "policies": [
+            {
+                "name": "Historic Site Conservation",
+                "row": 1,
+                "column": 2,
+                "uniques": [
+                    "[+4 Culture] from every [City ruins]",
+                    "[+1 Culture] from every [Fort]"
+                ]
+            },
+            {
+                "name": "Archaeological Site Conservation",
+                "row": 1,
+                "column": 4,
+                "uniques": [
+                    "[+4 Culture] from every [Ancient ruins]"
+                    "[+4 Science] from every [Ancient ruins] <after discovering [Archaeology]>"
+                ]
+            },
+            {
+                "name": "Cultural Tourism",
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Historic Site Conservation",
+                    "Archaeological Site Conservation"
+                ],
+                "uniques": [
+                    "[+2 Gold] from every [World Wonder]",
+                    "[+1 Gold] from every [City ruins]"
+                ]
+            },
+            {
+                "name": "Historical Revisionism",
+                "row": 3,
+                "column": 2,
+                "requires": [
+                    "Cultural Tourism"
+                ],
+                "uniques": [
+                    "[+1 Science] from every [Monument] <in [Annexed] cities>",
+                    "[+1 Science] from every [Monument] <in [Puppeted] cities>"
+                ]
+            },
+            {
+                "name": "Historical Negationism",
+                "row": 3,
+                "column": 4,
+                "requires": [
+                    "Cultural Tourism"
+                ],
+                "uniques": [
+                    "[+5]% [Happiness] <in [{Annexed} {Non-occupied}] cities>",
+                    "[+10]% [Happiness] <in [Non-occupied] cities>",
+                    "[-1 Science] from every [Library] <in [Annexed] cities> <in cities with at least [2] [Population]> <hidden from users>",
+                    "[+1 Science] from every [Library] <in [{Annexed} {Non-occupied}] cities> <in cities with at least [2] [Population]> <hidden from users>",
+                    "Comment [-1 Science from every Library in annexed occupied cities with at least 2 Population]"
+                ]
+            },
+            {
+                "name": "Historicism Complete",
+                "uniques": [
+                    "Receive a free Great Person at the end of every [cycle of history] (every 394 years), after researching [Archaeology]. Each bonus person can only be chosen once."
+                ]
+            }
+        ]
+    }
+]
