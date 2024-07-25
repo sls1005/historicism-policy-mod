@@ -5,7 +5,7 @@
         "priorities": {"Domination": 10},
         "uniques": [
             "Only available <after turn number [10]>",
-            "[+1 Happiness] from every [Monument]"
+            "[+1 Happiness] from every [Monument] <in [Non-occupied] cities>"
         ],
         "policies": [
             {
@@ -22,7 +22,7 @@
                 "row": 1,
                 "column": 4,
                 "uniques": [
-                    "[+4 Culture] from every [Ancient ruins]"
+                    "[+4 Culture] from every [Ancient ruins]",
                     "[+4 Science] from every [Ancient ruins] <after discovering [Archaeology]>"
                 ]
             },
@@ -47,8 +47,11 @@
                     "Cultural Tourism"
                 ],
                 "uniques": [
-                    "[+1 Science] from every [Monument] <in [Annexed] cities>",
-                    "[+1 Science] from every [Monument] <in [Puppeted] cities>"
+                    "[+1 Science] from every [City ruins] <after discovering [Archaeology]>",
+                    "[+1 Science] from every [Library] <in [Annexed] cities> <before adopting [Historical Negationism]>",
+                    "[+1 Science] from every [Library] <in [Puppeted] cities> <before adopting [Historical Negationism]>",
+                    "[+1 Science] from every [The Great Library] <in [Annexed] cities> <before adopting [Historical Negationism]>",
+                    "[+1 Science] from every [The Great Library] <in [Puppeted] cities> <before adopting [Historical Negationism]>"
                 ]
             },
             {
@@ -60,9 +63,7 @@
                 ],
                 "uniques": [
                     "[+5]% [Happiness] <in [{Annexed} {Non-occupied}] cities>",
-                    "[+10]% [Happiness] <in [Non-occupied] cities>",
-                    "[-1 Science] from every [Library] <in [{Annexed} {non-[Non-occupied]}] cities> <in cities with at least [2] [Population]> <hidden from users>",
-                    "Comment [-1 Science from every Library in annexed occupied cities with at least 2 Population]"
+                    "[+10]% [Happiness] <in [Non-occupied] cities>"
                 ]
             },
             {
