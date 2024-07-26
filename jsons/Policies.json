@@ -63,7 +63,7 @@
                 ],
                 "uniques": [
                     "[+5]% [Happiness] <in [{Annexed} {Non-occupied}] cities>",
-                    "[+10]% [Happiness] <in [Non-occupied] cities>"
+                    "[+5]% [Happiness] <in [Non-occupied] cities>"
                 ]
             },
             {
