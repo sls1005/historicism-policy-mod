@@ -2,7 +2,7 @@
     {
         "name": "Historicism",
         "era": "Industrial era",
-        "priorities": {"Domination": 10},
+        "priorities": {"Domination": 5},
         "uniques": [
             "Only available <after turn number [10]>",
             "[+1 Happiness] from every [Monument] <in [Non-occupied] cities>"
