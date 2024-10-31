@@ -14,7 +14,8 @@
                 "column": 2,
                 "uniques": [
                     "[+4 Culture] from every [City ruins]",
-                    "[+1 Culture] from every [Fort]"
+                    "[+2 Culture] from every [Fort]",
+                    "Each city founded increases culture cost of policies [33]% less than normal"
                 ]
             },
             {
@@ -23,7 +24,8 @@
                 "column": 4,
                 "uniques": [
                     "[+4 Culture] from every [Ancient ruins]",
-                    "[+4 Science] from every [Ancient ruins] <after discovering [Archaeology]>"
+                    "[+4 Science] from every [Ancient ruins] <after discovering [Archaeology]>",
+                    "Earn [50]% of killed [Military] unit's [Cost] as [culture]"
                 ]
             },
             {
@@ -35,8 +37,9 @@
                     "Archaeological Site Conservation"
                 ],
                 "uniques": [
-                    "[+2 Gold] from every [World Wonder]",
-                    "[+1 Gold] from every [City ruins]"
+                    "[+3 Gold] from every [World Wonder]",
+                    "[+1 Gold] from every [City ruins]",
+                    "[+1 Happiness] from every [National Wonder]"
                 ]
             },
             {
@@ -47,11 +50,11 @@
                     "Cultural Tourism"
                 ],
                 "uniques": [
-                    "[+1 Science] from every [City ruins] <after discovering [Archaeology]>",
+                    "[+2 Science] from every [City ruins] <after discovering [Archaeology]>",
                     "[+1 Science] from every [Library] <in [Annexed] cities> <before adopting [Historical Negationism]>",
                     "[+1 Science] from every [Library] <in [Puppeted] cities> <before adopting [Historical Negationism]>",
-                    "[+1 Science] from every [The Great Library] <in [Annexed] cities> <before adopting [Historical Negationism]>",
-                    "[+1 Science] from every [The Great Library] <in [Puppeted] cities> <before adopting [Historical Negationism]>"
+                    "[+3 Science] from every [The Great Library] <in [Annexed] cities> <before adopting [Historical Negationism]>",
+                    "[+3 Science] from every [The Great Library] <in [Puppeted] cities> <before adopting [Historical Negationism]>"
                 ]
             },
             {
@@ -62,14 +65,15 @@
                     "Cultural Tourism"
                 ],
                 "uniques": [
-                    "[+5]% [Happiness] <in [{Annexed} {Non-occupied}] cities>",
-                    "[+5]% [Happiness] <in [Non-occupied] cities>"
+                    "[+10]% [Happiness] <in [{Annexed} {Non-occupied}] cities>",
+                    "[+10]% [Happiness] <in [Non-occupied] cities>"
                 ]
             },
             {
                 "name": "Historicism Complete",
                 "uniques": [
-                    "Receive a free Great Person at the end of every [cycle of history] (every 394 years), after researching [Archaeology]. Each bonus person can only be chosen once."
+                    "Receive a free Great Person at the end of every [cycle of history] (every 394 years), after researching [Archaeology]. Each bonus person can only be chosen once.",
+                    "[+3 Happiness] from every [Courthouse]"
                 ]
             }
         ]
